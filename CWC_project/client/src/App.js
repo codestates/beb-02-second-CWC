@@ -2,6 +2,7 @@ import "./App.css";
 import Mypage from "./views/Mypage";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Board from "./components/Board";
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
           <Route path="/" exact />
         </Switch>
       </Router>
-
       <Mypage />
+      <Board />
     </>
   );
 }
