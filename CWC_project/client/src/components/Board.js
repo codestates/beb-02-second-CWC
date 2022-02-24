@@ -1,8 +1,9 @@
 import './Board.css';
-import React, { Component, useState } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import ReactHtmlParser from 'react-html-parser';
+import Axios from 'axios';
 
 function Board() {
   const [postContent, setPostContent] = useState({
@@ -17,6 +18,22 @@ function Board() {
     const { name, value } = e.target;
     setPostContent({...postContent,[name]: value})
     console.log(postContent);
+  };
+
+  useEffect(()=> {
+    Axios.get('http://localhost:8000/api/get').then((response)=>{
+      // console.log(response);
+      setViewContent(response.data);
+    })
+  },[viewContent])
+
+  const submitPost = ()=>{
+    Axios.post('http://localhost:8000/api/insert', {
+      title: postContent.title,
+      content: postContent.title
+    }).then(()=>{
+      alert('Completed!😄👍');
+    })
   };
 
 
@@ -89,10 +106,10 @@ function Board() {
         />
       </div>
       <button className="button"
-      onClick={() => {
-        setViewContent(viewContent.concat({...postContent}));
-      }
-    }>Post</button>
+      onClick={submitPost}
+        // () => {
+        // setViewContent(viewContent.concat({...postContent}))};
+    >Post</button>
     </div>
   );
 }
