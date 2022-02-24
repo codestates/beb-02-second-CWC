@@ -29,5 +29,3 @@ const db = mysql.createPool({
 ```
 
 
-<br>
-<참고 자료> <br> https://falaner.tistory.com/60?category=898434
