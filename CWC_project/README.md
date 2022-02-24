@@ -1,7 +1,7 @@
-Board 게시판을 사용하려면 DB를 만들어야함.
+**Notice : Board 게시판을 사용하려면 DB를 만들어야함.
 
 
-Database 사용법
+***Database 사용법
 
 mysql 콘솔창으로 들어가서
 
