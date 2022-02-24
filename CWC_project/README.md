@@ -29,4 +29,5 @@ const db = mysql.createPool({
 ```
 
 
-//참고 https://falaner.tistory.com/60?category=898434
+<참고 자료>
+게시판 만들 때 :  https://falaner.tistory.com/60?category=898434
