@@ -27,3 +27,6 @@ const db = mysql.createPool({
     database: "cwcboard"
 });
 ```
+
+
+//참고 https://falaner.tistory.com/60?category=898434
