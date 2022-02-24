@@ -31,6 +31,7 @@ app.get("/api/get", (req, res)=>{
 app.post("/api/insert", (req, res) => {
     const title = req.body.title;
     const content = req.body.content;
+    // const user = req.body.username;
     const sqlQuery = "INSERT INTO cwcboard (title, content) VALUES (?,?)";
     db.query(sqlQuery, [title, content], (err, result) => {
         res.send('success!');
