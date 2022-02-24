@@ -6,11 +6,11 @@
 mysql 콘솔창으로 들어가서
 
 데이터베이스 만들고
-`$ CREATE DATABASE board;`
+`$ CREATE DATABASE cwcboard;`
 
 테이블만들기 (데이터베이스 스키마)
 ```javascript
-CREATE TABLE board(
+CREATE TABLE cwcboard(
 idx INT(10) NOT NULL AUTO_INCREMENT,
 title CHAR(100) NOT NULL,
 content TEXT NOT NULL,
@@ -24,6 +24,6 @@ const db = mysql.createPool({
     host: "localhost",
     user: "root",
     password: "",    
-    database: "board"
+    database: "cwcboard"
 });
 ```
