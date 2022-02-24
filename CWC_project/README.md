@@ -17,3 +17,13 @@ content TEXT NOT NULL,
 PRIMARY KEY(idx)
 );
 ```
+
+서버에 index.js 파일에서 ""안에 본인 mysql passoword 
+```javascript
+const db = mysql.createPool({
+    host: "localhost",
+    user: "root",
+    password: "",    
+    database: "board"
+});
+```
