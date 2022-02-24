@@ -11,10 +11,15 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact />
+          <Route path="/post">
+            <Board />
+          </Route>
+          <Route path="/profile">
+            <Mypage />
+          </Route>
+          <Route path="/sign-up"></Route>
         </Switch>
       </Router>
-      <Mypage />
-      <Board />
     </>
   );
 }
