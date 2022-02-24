@@ -18,7 +18,7 @@ PRIMARY KEY(idx)
 );
 ```
 
-서버에 index.js 파일에서 ""안에 본인 mysql passoword 
+서버에 index.js 파일에서 ""안에 본인 mysql passoword 넣기
 ```javascript
 const db = mysql.createPool({
     host: "localhost",
