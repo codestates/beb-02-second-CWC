@@ -112,7 +112,7 @@ body {
 
 .logo-name {
     background-color: #282c34;
-    min-height: 40vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,6 +121,7 @@ body {
     font-weight: 700;
     font-size: calc(30px + 2vmin);
     color: white;
+    margin-top: 0px;
 }
 
 .logo-paragrph {
@@ -129,6 +130,8 @@ body {
     font-size: calc(7px + 2vmin);
     color: white;
     padding: 0 70px 0 70px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .welcome-page {
@@ -139,7 +142,7 @@ body {
     border-radius: 5px;
     margin-bottom : 50px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     background: linear-gradient( 45deg, #0d6efd, #6309ca );
     color : white;
 
