@@ -42,7 +42,7 @@ function Board() {
 
   return (
     <div className="Board">
-      <h1 className='logo-name'>CWC's Community
+      <h1 className='logo-name'>CWC's Community Guidelines
       <p className='logo-paragrph'>When you use CWC, you join a community of people from all over the world. The guidelines below help keep CWC fun and enjoyable for everyone.
         If you see content that you think violates these guidelines, use the flagging feature to submit it for review by our CWC staff.</p></h1>
         <div className='welcome-page'>
