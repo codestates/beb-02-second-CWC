@@ -16,12 +16,4 @@ function Mypagecontents() {
   );
 }
 
-// function Mypagecontents() {
-//   return (
-//     <div id="MypageContents">
-//       <NftList />
-//     </div>
-//   );
-// }
-
 export default Mypagecontents;
