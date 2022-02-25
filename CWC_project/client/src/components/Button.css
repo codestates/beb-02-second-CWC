@@ -14,14 +14,14 @@
   border: none;
   cursor: pointer;
   font-family: 'Quattrocento Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
+  border-radius: 4px;
 }
 
 .btn-primary {
   background-color: var(--primary);
   color: #242424;
   border: 1px solid var(--primary);
-  font-family: 'Quattrocento Sans', sans-serif;
   
 
 }
@@ -36,7 +36,7 @@
 
 .btn-medium {
   padding: 8px 20px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .btn-large {
