@@ -105,6 +105,10 @@ body {
     justify-content: center;
     margin-top: -200px;
     margin-bottom: 200px;
+    margin-left: 50px;
+    text-align: center;
+	position: relative;
+	transform: translate( 0%, 10% );
 }
 
 .homepage-image {

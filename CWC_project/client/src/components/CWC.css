@@ -36,21 +36,18 @@ body {
 
 .cwc-paragrph {
     min-height: 50vh;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.4em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
     font-family: 'Quattrocento Sans', sans-serif;
     font-weight: 700;
     font-size: calc(44px + 2vmin);
     background: linear-gradient(-45deg, #35C3F3 0%, #8b9fe8 20%, #e681d8 39%, #ffa9a4 76%, #FED2CE 100%);
     color: transparent;
     -webkit-background-clip: text;
-    margin: 40px;
-    margin-top:250px;
-    margin-left:90px;
-    margin-right:90px;
+    margin-top:650px;
+    margin-right: 150px;
+    line-height: 1.2em;
 }
-
