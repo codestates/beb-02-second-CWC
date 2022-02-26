@@ -25,17 +25,28 @@ body {
     color: transparent;
     -webkit-background-clip: text;
     margin-top: -70px;
+    
 }
 
-
+.dot {
+    position :absolute;
+    left: 50%;
+    top : 50%;
+    transform: translate(-50%, 10%);
+    background: linear-gradient(-45deg, #35C3F3 0%, #8b9fe8 20%, #e681d8 39%, #ffa9a4 76%, #FED2CE 100%);
+    border-radius: 50%;
+    margin-top: -300px;
+    width: 900px;
+    height: 900px;
+  }
 
 .small_text {
   position: absolute;
-  top: 26%;
+  top: 36%;
   left:0%;
   width: 100%;
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 600;
   color: rgb(255, 255, 255);
 }
@@ -74,7 +85,7 @@ body {
     align-items: center;
     justify-content: center;
     line-height: 1.4em;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight: 700;
     font-size: calc(24px + 2vmin);
     color: white;
@@ -87,9 +98,13 @@ body {
 
 /* //teampage */
 .mypage-css {
- margin-left: 250px;
- margin-top: 200px;
- margin-bottom: 250px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+    margin-bottom: 200px;
 }
 
 .homepage-image {
@@ -130,7 +145,7 @@ body {
     font-size: calc(44px + 2vmin);
     color: #e681d8;
     margin: 40px;
-    margin-top:10px;
+    margin-top:800px;
     margin-left:90px;
     margin-right:90px;
 }
