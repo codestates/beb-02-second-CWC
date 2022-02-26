@@ -15,7 +15,6 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-
           <Route path="/home" exact>
             <Home />
           </Route>
@@ -25,7 +24,6 @@ function App() {
           <Route path="/profile">
             <Mypage />
           </Route>
-
           <Route path="/cwc">
             <CWC />
           </Route>
@@ -36,8 +34,8 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-
     </>
+ 
 
   );
 }
