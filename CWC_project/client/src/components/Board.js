@@ -41,12 +41,12 @@ function Board() {
 
 
   return (
-    <div className="Board">
-      <h1 className='logo-name'>CWC's Community Guidelines
-      <p className='logo-paragrph'>When you use CWC, you join a community of people from all over the world. The guidelines below help keep CWC fun and enjoyable for everyone.
+    <div className="Board-container">
+      <h1 className='Board-logo-name'>CWC's Community Guidelines
+      <p className='Board-logo-paragrph'>When you use CWC, you join a community of people from all over the world. The guidelines below help keep CWC fun and enjoyable for everyone.
         If you see content that you think violates these guidelines, use the flagging feature to submit it for review by our CWC staff.</p></h1>
-        <div className='welcome-page'>
-          <h2 className='discussion-page'>👋 Welcome to CWC Discussion Page!</h2>
+        <div className='Board-welcome-page'>
+          <h2 className='Board-discussion-page'>👋 Welcome to CWC Discussion Page!</h2>
         </div>
       
       <div className='post-container'>
@@ -54,10 +54,10 @@ function Board() {
           <div className='post'>
             {/* <h2 className='username'>김기동</h2> */}
             {/* <h2 className='username'>{element.username}</h2> */}
-            <div className='title'>{element.title}</div>
+            <div className='post-title'>{element.title}</div>
   
             {/* <h3 className='like'>{따봉} likes</h3> */}
-            <div className='content'>{ReactHtmlParser(element.content)}</div>
+            <div className='post-content'>{ReactHtmlParser(element.content)}</div>
             {/* <div className='thumbsup-reply-button'>
               <button className='thumbsup'>💡</button>
               <button className='thumbsup' onClick={() => {따봉변경(따봉 + 1)}}>👍</button>
@@ -66,9 +66,9 @@ function Board() {
           )}
       </div>
 
-      <div className='form-wrapper'>
-        <div className='title-container'>
-          <div className='write'>Write</div>
+      <div className='post-form-wrapper'>
+        <div className='post-title-container'>
+          <div className='post-write'>Write</div>
           {/* <input className="username-input" 
                   type='text' 
                   placeholder='Username' 
@@ -76,21 +76,21 @@ function Board() {
                   name='username'
                   /> */}
 
-          <input className="title-input" 
+          <input className="post-title-input" 
                   type='text' 
                   placeholder='Title' 
                   onChange={getValue}
                   name='title'
                   />
 
-          <textarea className="content-input" 
+          <textarea className="post-content-input" 
                   type='text' 
                   placeholder='Content' 
                   onChange={getValue}
                   name='content'
                   />
           <div>
-          <button className="button" onClick={submitPost}>Post</button>
+          <button className="post-button" onClick={submitPost}>Post</button>
          {/* () => {setViewContent(viewContent.concat({...postContent}))}; */}
          </div>
         </div>
