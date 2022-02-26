@@ -5,7 +5,8 @@ function Home() {
     return (
     <div>
     <div className="home-container">     
-        <div className="h1-gradient">W</div>
+        <div className="h1-gradient"></div>
+        <span class="dot"></span>
         <div className="small_text">Web2.0</div>
         <div className="team-paragrph">
             Buy NFTs with CWC Token.
