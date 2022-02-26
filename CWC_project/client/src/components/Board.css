@@ -10,7 +10,7 @@ font-family: 'Noto Serif KR', serif;
 font-family: 'Quattrocento Sans', sans-serif;
 font-family: 'Song Myung', serif; */
 
-.Board {
+.Board-container {
     text-align: center;
   }
 
@@ -55,7 +55,7 @@ body {
 
 
 
-.title {
+.post-title {
   font-family: 'Nanum Myeongjo', serif;
   font-size: 34px;
   font-weight: 700;
@@ -70,7 +70,7 @@ body {
   margin-top: 30px;
 }
 
-.content {
+.post-content {
   width: 800px;
   font-family: 'Noto Serif KR', serif;
   font-size: 28px;
@@ -124,7 +124,7 @@ body {
   font-size: 19px;
 }
 
-.write {
+.post-write {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -134,13 +134,13 @@ body {
 
 }
   
-.title-input {
+.post-title-input {
     width: 80%;
     height: 40px;
     margin: 10px;
   }
   
-.title-container {
+.post-title-container {
     width: 99.8%;
     margin: 0 auto;
     background: rgb(253, 253, 253);
@@ -151,7 +151,7 @@ body {
 
 }  
 
-.content-input {
+.post-content-input {
   width: 80%;
   height: 100px;
   margin: 10px;
@@ -162,7 +162,7 @@ body {
   width: 80%;
 } */
 
-.form-wrapper {
+.post-form-wrapper {
   width: 95%;
   margin: 10px auto;
   border: 1px solid rgb(224, 224, 224);
@@ -177,7 +177,7 @@ body {
 
 /* welcome page */
 
-.logo-name {
+.Board-logo-name {
     background-color: #282c34;
     min-height: 50vh;
     display: flex;
@@ -191,7 +191,7 @@ body {
     margin-top: 0px;
 }
 
-.logo-paragrph {
+.Board-logo-paragrph {
     font-family: 'Noto sans KR', serif;
     font-weight: 700;
     font-size: calc(7px + 2vmin);
@@ -201,7 +201,7 @@ body {
     margin-right: 90px;
 }
 
-.welcome-page {
+.Board-welcome-page {
     margin: 0 auto;
     width: 95%;
     height: 100%;
@@ -217,7 +217,7 @@ body {
 
 }
 
-.discussion-page{
+.Board-discussion-page{
   padding: 30px 0 30px 0;
 
 }
@@ -259,7 +259,7 @@ body {
   --button-hover-bg-color: #025ce2;
 }
 
-button {
+.post-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
