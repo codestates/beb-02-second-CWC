@@ -35,7 +35,7 @@ function Board() {
       content: postContent.content,
       username : postContent.username,
     }).then(()=>{
-      alert('Completed!😄👍');
+      alert('Completed!!😄👍');
     })
   };
 
