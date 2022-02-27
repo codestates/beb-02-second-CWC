@@ -42,7 +42,7 @@ function Board() {
 
   return (
     <div className="Board">
-      <h1 className='logo-name'>CWC's Community
+      <h1 className='logo-name'>CWC's Community Guidelines
       <p className='logo-paragrph'>When you use CWC, you join a community of people from all over the world. The guidelines below help keep CWC fun and enjoyable for everyone.
         If you see content that you think violates these guidelines, use the flagging feature to submit it for review by our CWC staff.</p></h1>
         <div className='welcome-page'>
@@ -52,11 +52,11 @@ function Board() {
       <div className='post-container'>
         {viewContent.map(element =>
           <div className='post'>
-            <h2 className='username'>김기동</h2>
+            {/* <h2 className='username'>김기동</h2> */}
             {/* <h2 className='username'>{element.username}</h2> */}
-            <h2 className='title'>{element.title}</h2>
+            <div className='title'>{element.title}</div>
+  
             {/* <h3 className='like'>{따봉} likes</h3> */}
-                <hr></hr>
             <div className='content'>{ReactHtmlParser(element.content)}</div>
             {/* <div className='thumbsup-reply-button'>
               <button className='thumbsup'>💡</button>
@@ -68,13 +68,13 @@ function Board() {
 
       <div className='form-wrapper'>
         <div className='title-container'>
-          <p>Write</p>
-          <input className="username-input" 
+          <div className='write'>Write</div>
+          {/* <input className="username-input" 
                   type='text' 
                   placeholder='Username' 
                   onChange={getValue}
                   name='username'
-                  />
+                  /> */}
 
           <input className="title-input" 
                   type='text' 
@@ -89,6 +89,10 @@ function Board() {
                   onChange={getValue}
                   name='content'
                   />
+          <div>
+          <button className="button" onClick={submitPost}>Post</button>
+         {/* () => {setViewContent(viewContent.concat({...postContent}))}; */}
+         </div>
         </div>
           
         {/* <CKEditor
@@ -113,11 +117,7 @@ function Board() {
         />*/}
       </div>
 
-      <button className="button"
-      onClick={submitPost}
-        // () => {
-        // setViewContent(viewContent.concat({...postContent}))};
-    >Post</button>
+      
     </div>
   );
 }
