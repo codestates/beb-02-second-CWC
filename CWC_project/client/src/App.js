@@ -8,7 +8,6 @@ import CWC from "./components/CWC";
 import Footer from "./components/Footer";
 import Create from "./components/Create";
 
-
 function App() {
   return (
     <>
@@ -34,10 +33,7 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-      
     </>
- 
-
   );
 }
 

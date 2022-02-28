@@ -27,37 +27,51 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar-container">
-          <Link to="/CWC" className="navbar-logo" onClick={closeMobileMenu}>
+        <div className="navbar__container">
+          <Link
+            to="/CWC"
+            className="navbar__navbar-logo"
+            onClick={closeMobileMenu}
+          >
             CWC
           </Link>
-          <div className="menu-icon" onClick={handleClick}>
+          <div className="navbar__menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link to="/home" className="nav-links" onClick={closeMobileMenu}>
+          <ul
+            className={click ? "navbar__nav-menu active" : "navbar__nav-menu"}
+          >
+            <li className="navbar__nav-item">
+              <Link
+                to="/home"
+                className="navbar__nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/post" className="nav-links" onClick={closeMobileMenu}>
+            <li className="navbar__nav-item">
+              <Link
+                to="/post"
+                className="navbar__nav-links"
+                onClick={closeMobileMenu}
+              >
                 Post
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="navbar__nav-item">
               <Link
                 to="/profile"
-                className="nav-links"
+                className="navbar__nav-links"
                 onClick={closeMobileMenu}
               >
                 Profile
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="navbar__nav-item">
               <Link
                 to="/create"
-                className="nav-links"
+                className="navbar__nav-links"
                 onClick={closeMobileMenu}
               >
                 Create
@@ -67,14 +81,16 @@ function Navbar() {
             <li>
               <Link
                 to="/sign-up"
-                className="nav-links-mobile"
+                className="navbar__nav-links-mobile"
                 onClick={closeMobileMenu}
               >
                 Sign Up
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && (
+            <Button buttonStyle="navbar__btn--outline">SIGN UP</Button>
+          )}
         </div>
       </nav>
     </>

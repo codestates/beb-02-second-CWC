@@ -1,7 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
@@ -15,7 +14,7 @@
   z-index: 999;
 }
 
-.navbar-container {
+.navbar__container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,20 +22,20 @@
   max-width: 1500px;
 }
 
-.navbar-logo {
+.navbar__navbar-logo {
   color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   font-weight: 700;
   font-size: 3rem;
   display: flex;
   align-items: center;
 }
 
-.nav-menu {
+.navbar__nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
@@ -46,15 +45,15 @@
   justify-content: end;
   margin-right: 2rem;
   margin-top: 3px;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   font-weight: 700;
 }
 
-.nav-item {
+.navbar__nav-item {
   height: 80px;
 }
 
-.nav-links {
+.navbar__nav-links {
   color: #fff;
   display: flex;
   align-items: center;
@@ -64,7 +63,7 @@
   font-family: "Quattrocento Sans", sans-serif;
 }
 
-.nav-links:hover {
+.navbar__nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
 }
@@ -73,11 +72,11 @@
   color: #fff;
 }
 
-.nav-links-mobile {
+.navbar__nav-links-mobile {
   display: none;
 }
 
-.menu-icon {
+.navbar__menu-icon {
   display: none;
 }
 
@@ -86,7 +85,7 @@
     position: relative;
   }
 
-  .nav-menu {
+  .navbar__nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -98,7 +97,7 @@
     transition: all 0.5s ease;
   }
 
-  .nav-menu.active {
+  .navbar__nav-menu.active {
     background: #242222;
     left: 0;
     opacity: 1;
@@ -106,27 +105,27 @@
     z-index: 1;
   }
 
-  .nav-links {
+  .navbar__nav-links {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
   }
 
-  .nav-links:hover {
+  .navbar__nav-links:hover {
     background-color: #fff;
     color: #242424;
     border-radius: 0;
   }
 
-  .navbar-logo {
+  .navbar__navbar-logo {
     position: absolute;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
   }
 
-  .menu-icon {
+  .navbar__menu-icon {
     display: block;
     position: absolute;
     top: 0;
@@ -141,7 +140,7 @@
     font-size: 2rem;
   }
 
-  .nav-links-mobile {
+  .navbar__nav-links-mobile {
     display: block;
     text-align: center;
     margin: 2rem auto;
@@ -156,7 +155,7 @@
     transition: all 0.3s ease-out;
   }
 
-  .nav-links-mobile:hover {
+  .navbar__nav-links-mobile:hover {
     background: #fff;
     color: #242424;
     transition: 250ms;
