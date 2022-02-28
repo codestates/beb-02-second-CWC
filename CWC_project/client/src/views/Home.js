@@ -1,5 +1,5 @@
 import "./Home.css";
-import Mypage from "../views/Mypage";
+import Mypage from "./Mypage";
 
 function Home() {
   return (

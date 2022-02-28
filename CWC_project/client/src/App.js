@@ -2,11 +2,11 @@ import "./App.css";
 import Mypage from "./views/Mypage";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Board from "./components/Board";
-import Home from "./components/Home";
-import CWC from "./components/CWC";
+import Board from "./views/Board";
+import Home from "./views/Home";
+import CWC from "./views/CWC";
 import Footer from "./components/Footer";
-import Create from "./components/Create";
+import Create from "./views/Create";
 
 function App() {
   return (
@@ -14,7 +14,10 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/home" exact>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/home">
             <Home />
           </Route>
           <Route path="/post">

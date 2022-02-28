@@ -1,4 +1,4 @@
-import "../views/mypage.css";
+import "../App.css";
 import Dummy from "./dummy";
 import Card from "./Card";
 

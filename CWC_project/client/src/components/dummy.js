@@ -54,5 +54,82 @@ const Dummy = [
     image:
       "https://lh3.googleusercontent.com/VZgeKWUmrLjkbbCfjMn3ytDvOK3nLJjImk1-CW0jxIwE1XYIDnUDbcwbEOkrLXaS9aLhQJLQNCsSVuMwSg3RGtB1eIqPDQ2FU4OF=w303",
   },
+  {
+    contractAddress: "44",
+    tokenID: "444",
+    tokenStandard: "ERC-721",
+    blockchain: "Ethereum",
+    id: "4",
+    name: "CryptoPunk",
+    traits: [{ value: 1 }],
+    image:
+      "https://lh3.googleusercontent.com/VZgeKWUmrLjkbbCfjMn3ytDvOK3nLJjImk1-CW0jxIwE1XYIDnUDbcwbEOkrLXaS9aLhQJLQNCsSVuMwSg3RGtB1eIqPDQ2FU4OF=w303",
+  },
+  {
+    contractAddress: "44",
+    tokenID: "444",
+    tokenStandard: "ERC-721",
+    blockchain: "Ethereum",
+    id: "4",
+    name: "CryptoPunk",
+    traits: [{ value: 1 }],
+    image:
+      "https://lh3.googleusercontent.com/VZgeKWUmrLjkbbCfjMn3ytDvOK3nLJjImk1-CW0jxIwE1XYIDnUDbcwbEOkrLXaS9aLhQJLQNCsSVuMwSg3RGtB1eIqPDQ2FU4OF=w303",
+  },
+  {
+    contractAddress: "44",
+    tokenID: "444",
+    tokenStandard: "ERC-721",
+    blockchain: "Ethereum",
+    id: "4",
+    name: "CryptoPunk",
+    traits: [{ value: 1 }],
+    image:
+      "https://lh3.googleusercontent.com/VZgeKWUmrLjkbbCfjMn3ytDvOK3nLJjImk1-CW0jxIwE1XYIDnUDbcwbEOkrLXaS9aLhQJLQNCsSVuMwSg3RGtB1eIqPDQ2FU4OF=w303",
+  },
+  {
+    contractAddress: "44",
+    tokenID: "444",
+    tokenStandard: "ERC-721",
+    blockchain: "Ethereum",
+    id: "4",
+    name: "CryptoPunk",
+    traits: [{ value: 1 }],
+    image:
+      "https://lh3.googleusercontent.com/VZgeKWUmrLjkbbCfjMn3ytDvOK3nLJjImk1-CW0jxIwE1XYIDnUDbcwbEOkrLXaS9aLhQJLQNCsSVuMwSg3RGtB1eIqPDQ2FU4OF=w303",
+  },
+  {
+    contractAddress: "44",
+    tokenID: "444",
+    tokenStandard: "ERC-721",
+    blockchain: "Ethereum",
+    id: "4",
+    name: "CryptoPunk",
+    traits: [{ value: 1 }],
+    image:
+      "https://lh3.googleusercontent.com/VZgeKWUmrLjkbbCfjMn3ytDvOK3nLJjImk1-CW0jxIwE1XYIDnUDbcwbEOkrLXaS9aLhQJLQNCsSVuMwSg3RGtB1eIqPDQ2FU4OF=w303",
+  },
+  {
+    contractAddress: "44",
+    tokenID: "444",
+    tokenStandard: "ERC-721",
+    blockchain: "Ethereum",
+    id: "4",
+    name: "CryptoPunk",
+    traits: [{ value: 1 }],
+    image:
+      "https://lh3.googleusercontent.com/VZgeKWUmrLjkbbCfjMn3ytDvOK3nLJjImk1-CW0jxIwE1XYIDnUDbcwbEOkrLXaS9aLhQJLQNCsSVuMwSg3RGtB1eIqPDQ2FU4OF=w303",
+  },
+  {
+    contractAddress: "44",
+    tokenID: "444",
+    tokenStandard: "ERC-721",
+    blockchain: "Ethereum",
+    id: "4",
+    name: "CryptoPunk",
+    traits: [{ value: 1 }],
+    image:
+      "https://lh3.googleusercontent.com/VZgeKWUmrLjkbbCfjMn3ytDvOK3nLJjImk1-CW0jxIwE1XYIDnUDbcwbEOkrLXaS9aLhQJLQNCsSVuMwSg3RGtB1eIqPDQ2FU4OF=w303",
+  },
 ];
 export default Dummy;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import eth from "../assets/eth.png";
-import "./Card.css";
+import "../App.css";
 import Modal from "./modal";
 
 const Card = ({ nft, action, text }) => {

@@ -1,12 +1,10 @@
 import Contents from "../components/Mypagecontents";
 
-// test
 function Mypage() {
   return (
-    <div id="cont_mypage">
-      <div className="nftList">
-        <Contents />
-      </div>
+    <div className="nftList">
+      <div id="nftList__header">NFT List</div>
+      <Contents />
     </div>
   );
 }

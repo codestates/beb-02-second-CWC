@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import fileImg from "../assets/create-insert-file.jpg";
 import { Card, CardHeader, CardBody } from "reactstrap";
-import "./Create.css";
+import "../App.css";
 
 const Create = () => {
   const [file, setFile] = useState(null);
