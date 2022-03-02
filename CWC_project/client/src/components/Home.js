@@ -25,7 +25,7 @@ function Home() {
             새로운 형태의 함수와 서버기반 지갑 서비스를 구현한 서비스입니다.
          </div>
     </div>  
-
+      <button>plus</button>
      {/* <div className="homepage-image">
       <div className="team-text">Hello World,</div>
       
