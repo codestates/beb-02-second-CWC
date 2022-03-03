@@ -2,7 +2,7 @@ import "../App.css";
 import Dummy from "./dummy";
 import Card from "./Card";
 
-function Mypagecontents() {
+function Explorercontents() {
   const sale = () => {
     <div>{console.log("sale 버튼이 눌렸습니다.")}</div>;
   };
@@ -16,4 +16,4 @@ function Mypagecontents() {
   );
 }
 
-export default Mypagecontents;
+export default Explorercontents;

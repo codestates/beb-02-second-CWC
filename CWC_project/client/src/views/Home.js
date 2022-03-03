@@ -1,5 +1,5 @@
 import "./Home.css";
-import Mypage from "./Mypage";
+import Contents from "../components/dummycontents";
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
         <div className="home-small_text">Web2.0</div>
         <div className="home-team-paragrph">Buy NFTs with CWC Token.</div>
         <div className="home-mypage-css">
-          <Mypage />
+          <Contents />
         </div>
       </div>
 

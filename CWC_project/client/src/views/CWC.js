@@ -1,5 +1,4 @@
 import "./CWC.css";
-import Mypage from "../views/Mypage";
 
 function CWC() {
   return (

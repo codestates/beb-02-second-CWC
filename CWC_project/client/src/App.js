@@ -1,5 +1,5 @@
 import "./App.css";
-import Mypage from "./views/Mypage";
+import Explorer from "./views/Explorer";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Board from "./views/Board";
@@ -23,8 +23,8 @@ function App() {
           <Route path="/post">
             <Board />
           </Route>
-          <Route path="/profile">
-            <Mypage />
+          <Route path="/explorer">
+            <Explorer />
           </Route>
           <Route path="/cwc">
             <CWC />

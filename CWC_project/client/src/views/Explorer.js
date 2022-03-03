@@ -1,6 +1,6 @@
-import Contents from "../components/Mypagecontents";
+import Contents from "../components/Explorercontents";
 
-function Mypage() {
+function Explorer() {
   return (
     <div className="nftList">
       <div id="nftList__header">NFT List</div>
@@ -9,4 +9,4 @@ function Mypage() {
   );
 }
 
-export default Mypage;
+export default Explorer;

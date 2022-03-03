@@ -1,7 +1,13 @@
-const express = require("express");
+import dotenv from "dotenv";
+import express from "express";
+import mysql from "mysql";
+import cors from "cors";
+
+dotenv.config();
+
+const password = process.env.DATABASE_SPRINT_PASSWORD;
+
 const app = express();
-const mysql = require("mysql");
-const cors = require("cors");
 const bodyParser = require("body-parser");
 const { urlencoded } = require("body-parser");
 const PORT = process.env.port || 8000;
@@ -9,7 +15,7 @@ const PORT = process.env.port || 8000;
 const db = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "fun",
+  password: password,
   database: "cwcboard",
 });
 
