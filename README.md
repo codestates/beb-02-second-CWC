@@ -22,7 +22,7 @@ CWC(Centralized Web2.0 Community)
 <img width="1842" alt="Screen Shot 2022-03-04 at 8 29 02 PM" src="https://user-images.githubusercontent.com/62411918/156755980-b3071957-e936-461b-b3bc-5103e3cfc2d9.png">
 
 
-**2/25 게시판 깨지는 부분 수정필요 / 폰트 깨진 부분 수정 필요
+**Process 2/25 게시판 깨지는 부분 수정필요 / 폰트 깨진 부분 수정 필요
 
 <img width="1719" alt="Screen Shot 2022-02-25 at 6 44 49 PM" src="https://user-images.githubusercontent.com/62411918/155693897-94975589-e929-4f60-9913-c64d809ed525.png">
 
