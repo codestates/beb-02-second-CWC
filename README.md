@@ -1,4 +1,5 @@
 CWC(Centralized Web2.0 Community) 
+<img width="1847" alt="Screen Shot 2022-03-04 at 8 29 13 PM" src="https://user-images.githubusercontent.com/62411918/156756080-4005ac04-f0b5-49be-ac4d-03975d22e374.png">
 
 <img width="1794" alt="Screen Shot 2022-02-26 at 1 16 06 PM" src="https://user-images.githubusercontent.com/62411918/155829134-5abc81e8-9fcb-47f9-8c12-8cf29f6bd2b8.png">
 
