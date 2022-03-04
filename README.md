@@ -28,7 +28,6 @@ CWC(Centralized Web2.0 Community)
 
 <img width="1731" alt="Screen Shot 2022-02-25 at 6 44 45 PM" src="https://user-images.githubusercontent.com/62411918/155693998-04b8f3af-de24-4203-9a72-05b5ab12bc55.png">
 
-<img width="1002" alt="Screen Shot 2022-02-25 at 5 29 30 PM" src="https://user-images.githubusercontent.com/62411918/155694084-8e736a59-0ab3-4aa5-b40b-4ed127111e5e.png">
 
 
 ***Database 사용법
