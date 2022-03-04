@@ -716,3 +716,120 @@
   color: #242424;
   transition: all 0.3s ease-out;
 }
+
+
+
+/*Board, Home, Login Button*/
+
+/* thumbsup & reply button */
+
+.thumbsup-reply-button {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 0 30px 0;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.thumbsup {
+  background: #ffffff;
+  margin-right: 10px;
+}
+
+.thumbsup:active,
+.thumbsup:hover,
+.thumbsup:focus {
+  background: #e2f3ff;
+  outline: 0;
+}
+.thumbsup:disabled {
+  opacity: 0.5;
+}
+
+/* button  (default_style)*/
+
+/* :root {
+  --button-color: #ffffff;
+  --button-bg-color: #0d6efd;
+  --button-hover-bg-color: #025ce2;
+} */
+
+.post-button,
+.button-google-login,
+.button-google-logout,
+.button-Login {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background: var(--button-bg-color);
+  color: var(--button-color);
+
+  margin: 20px;
+  margin-bottom: 30px;
+  padding: 0.5rem 1rem;
+
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+
+  border: none;
+  border-radius: 4px;
+
+  display: inline-block;
+  width: auto;
+
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+button.success {
+  --button-bg-color: #28a745;
+  --button-hover-bg-color: #218838;
+}
+
+button.error {
+  --button-bg-color: #dc3545;
+  --button-hover-bg-color: #c82333;
+}
+
+button.warning {
+  --button-color: #212529;
+  --button-bg-color: #ffc107;
+  --button-hover-bg-color: #e0a800;
+}
+
+button:active,
+button:hover,
+button:focus {
+  background: var(--button-hover-bg-color);
+  outline: 0;
+}
+button:disabled {
+  opacity: 0.5;
+}
+
+
+
+/* Login */
+
+/* //signup button */
+.w-100 {
+  margin-top: 0px;
+}
+/* //Already have an account: button */
+.mt-2 {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+/* //signup text */
+.mb-4 {
+  margin-top: 30px;
+}

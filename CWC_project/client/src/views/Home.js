@@ -1,10 +1,16 @@
 import "./Home.css";
 import Contents from "../components/dummycontents";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div>
       <div className="home-container">
+      
+            <Link to="/login">
+              <button className="button-Login">Login</button>
+            </Link>
+          
         <div className="home-h1-gradient"></div>
         <span class="home-dot"></span>
         <div className="home-small_text">Web2.0</div>

@@ -7,6 +7,8 @@ import Home from "./views/Home";
 import CWC from "./views/CWC";
 import Footer from "./components/Footer";
 import Create from "./views/Create";
+import RegisterPage from "./views/RegisterPage/RegisterPage";
+import LoginPage from "./views/LoginPage/LoginPage";
 
 function App() {
   return (
@@ -29,7 +31,8 @@ function App() {
           <Route path="/cwc">
             <CWC />
           </Route>
-          <Route path="/sign-up"></Route>
+          <Route path="/sign-up"><RegisterPage /></Route>
+          <Route path="/login"><LoginPage /></Route>
           <Route path="/create">
             <Create />
           </Route>

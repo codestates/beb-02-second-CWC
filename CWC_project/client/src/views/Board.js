@@ -1,9 +1,10 @@
 import "./Board.css";
-import React, { Component, useEffect, useState } from "react";
-import { CKEditor } from "@ckeditor/ckeditor5-react";
-import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
+import React, { useEffect, useState } from "react";
+// import { CKEditor } from "@ckeditor/ckeditor5-react";
+// import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 import ReactHtmlParser from "react-html-parser";
 import Axios from "axios";
+import "../App.css";
 
 function Board() {
   const [postContent, setPostContent] = useState({
@@ -12,7 +13,7 @@ function Board() {
     username: "",
   });
 
-  const [따봉, 따봉변경] = useState(0);
+  // const [따봉, 따봉변경] = useState(0);
   const [viewContent, setViewContent] = useState([]);
 
   const getValue = (e) => {
