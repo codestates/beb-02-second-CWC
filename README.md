@@ -2,6 +2,23 @@ CWC(Centralized Web2.0 Community)
 
 <img width="1794" alt="Screen Shot 2022-02-26 at 1 16 06 PM" src="https://user-images.githubusercontent.com/62411918/155829134-5abc81e8-9fcb-47f9-8c12-8cf29f6bd2b8.png">
 
+**Explore
+
+<img width="1861" alt="Screen Shot 2022-03-04 at 8 29 27 PM" src="https://user-images.githubusercontent.com/62411918/156756024-1e78bb20-0a72-4ba1-a16a-5ef28445e0b4.png">
+
+
+
+**게시판
+
+
+<img width="1845" alt="Screen Shot 2022-03-04 at 8 28 34 PM" src="https://user-images.githubusercontent.com/62411918/156755957-1040a61b-ec72-4f17-9743-ae2ef29da413.png">
+
+<img width="1846" alt="Screen Shot 2022-03-04 at 8 28 44 PM" src="https://user-images.githubusercontent.com/62411918/156755964-03ed7cef-a346-4f3c-b872-0315544f5182.png">
+
+<img width="1845" alt="Screen Shot 2022-03-04 at 8 28 55 PM" src="https://user-images.githubusercontent.com/62411918/156755972-7a14f425-e7e9-478d-9082-730773a3e83a.png">
+
+<img width="1842" alt="Screen Shot 2022-03-04 at 8 29 02 PM" src="https://user-images.githubusercontent.com/62411918/156755980-b3071957-e936-461b-b3bc-5103e3cfc2d9.png">
+
 
 **2/25 게시판 깨지는 부분 수정필요 / 폰트 깨진 부분 수정 필요
 
