@@ -3,6 +3,7 @@ const bcrypt = require('bcrypt');
 const saltRounds = 10; //10자리인 salt를 만들어서 비밀번호를 암호화한다.
 const jwt = require('jsonwebtoken');
 
+
 const userSchema = mongoose.Schema({
     name: {
         type: String,
@@ -34,20 +35,17 @@ const userSchema = mongoose.Schema({
     }
 })
 
+
 userSchema.pre('save', function( next ){
     //비밀번호를 암호화 시킨다.
-
     var user = this;
-    if(user.isModified('password')){
+    if (user.isModified('password')){
         bcrypt.genSalt(saltRounds,function(err, salt){
             if(err) return next(err)
     
             bcrypt.hash(user.password, salt, function(err, hash) {
-                if(err) {
-                    return next(err);
-                } else {
+                if(err) return next(err);
                 user.password = hash;
-                }
                 next();
             });
         });
@@ -57,14 +55,12 @@ userSchema.pre('save', function( next ){
 });
 
 userSchema.methods.comparePassword = function(plainPassword, cb){
+    
     //plainPassword 12345 암호화된 비밀번호 "$2b$10$fkwdmwhKHIuJa.CWxd/10.PHcW.VmS8Vv/3o0HC3MAXAyPodkn1Rm"
     bcrypt.compare(plainPassword, this.password, function(err, isMatch) {
-        if (err) {
-            return cb(err);
-    } else {
-            cb(null, isMatch);
-        }
-    });
+        if (err) return cb(err);
+        cb(null, isMatch);
+    })
 }
 
 userSchema.methods.generateToken = function(cb) {
@@ -76,7 +72,7 @@ userSchema.methods.generateToken = function(cb) {
     // 'secretToken' -> user._id
     user.token = token
     user.save(function(err, user){
-        if(err) return cb(err)
+        if (err) return cb(err)
         cb(null, user)
     })
 
@@ -87,7 +83,6 @@ userSchema.statics.findByToken = function ( token, cb ){
 
     //토큰을 decode 한다.
     jwt.verify(token, 'secretToken', function(err, decoded){
-        console.log(decoded.foo);
     //유저 아이디를 이용해서 유저를 찾은 다음에
     //클라이언트에서 가져온 token과 DB에 보관된 토큰이 일치하는지 확인
 

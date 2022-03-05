@@ -755,6 +755,9 @@
   --button-hover-bg-color: #025ce2;
 } */
 
+
+
+
 .post-button,
 .button-google-login,
 .button-google-logout,
@@ -772,7 +775,7 @@
 
   font-family: "Noto Sans KR", sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 800;
   text-align: center;
   text-decoration: none;
 
