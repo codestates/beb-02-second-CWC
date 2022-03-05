@@ -755,9 +755,21 @@
   --button-hover-bg-color: #025ce2;
 } */
 
+.btn-login-submit:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+.btn-signup-submit:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+.btn-signup-submit {
+  color: #0d6efd;
+}
 
 
-
+.btn-signup-submit,
+.btn-login-submit,
 .post-button,
 .button-google-login,
 .button-google-logout,

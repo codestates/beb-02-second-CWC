@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios, { Axios }  from 'axios';
 import { useDispatch } from 'react-redux';
 import { loginUser } from '../../_actions/user_action';
-import { withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 // import { addListener } from 'nodemon';
 // import { response } from 'express';
@@ -67,9 +67,13 @@ function LoginPage() {
                 <label>Password</label>
                 <input type="password" value={Password} onChange={onPasswordHandler} />
                 <br />
-                <button type="submit">
-                    Login
+                <button type="submit" className='btn-login-submit'>
+                    LOGIN
                 </button>
+                <Link to= "/sign-up">
+                No Account? SIGN UP
+                
+                </Link>
             </form>
         </div>
     )

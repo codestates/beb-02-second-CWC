@@ -3,6 +3,8 @@ import { useDispatch } from 'react-redux';
 import { registerUser } from '../../_actions/user_action';
 import Axios from 'axios';
 import { withRouter } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
 
 function RegisterPage(props) {
   // const dispatch = useDispatch();
@@ -71,9 +73,12 @@ function RegisterPage(props) {
           <input type="password" value={ConfirmPassword} onChange={onConfirmPasswordHandler} />
 
           <br />
-          <button type="submit">
+          <button type="submit" className='btn-signup-submit'>
              SIGN UP
           </button>
+          <Link to="/login">
+            Have an Account? LOGIN! 
+          </Link>
       </form>
   </div>
   )

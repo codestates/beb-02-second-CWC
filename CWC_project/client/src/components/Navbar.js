@@ -91,6 +91,7 @@ function Navbar() {
           {button && (
             <Button buttonStyle="navbar__btn--outline">SIGN UP</Button>
           )}
+          
         </div>
       </nav>
     </>
