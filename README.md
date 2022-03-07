@@ -15,18 +15,6 @@ CWC(Centralized Web2.0 Community)
 
 <img width="1845" alt="Screen Shot 2022-03-04 at 8 28 34 PM" src="https://user-images.githubusercontent.com/62411918/156755957-1040a61b-ec72-4f17-9743-ae2ef29da413.png">
 
-<img width="1846" alt="Screen Shot 2022-03-04 at 8 28 44 PM" src="https://user-images.githubusercontent.com/62411918/156755964-03ed7cef-a346-4f3c-b872-0315544f5182.png">
-
-<img width="1845" alt="Screen Shot 2022-03-04 at 8 28 55 PM" src="https://user-images.githubusercontent.com/62411918/156755972-7a14f425-e7e9-478d-9082-730773a3e83a.png">
-
-<img width="1842" alt="Screen Shot 2022-03-04 at 8 29 02 PM" src="https://user-images.githubusercontent.com/62411918/156755980-b3071957-e936-461b-b3bc-5103e3cfc2d9.png">
-
-
-**Process 2/25 게시판 깨지는 부분 수정필요 / 폰트 깨진 부분 수정 필요
-
-<img width="1719" alt="Screen Shot 2022-02-25 at 6 44 49 PM" src="https://user-images.githubusercontent.com/62411918/155693897-94975589-e929-4f60-9913-c64d809ed525.png">
-
-<img width="1731" alt="Screen Shot 2022-02-25 at 6 44 45 PM" src="https://user-images.githubusercontent.com/62411918/155693998-04b8f3af-de24-4203-9a72-05b5ab12bc55.png">
 
 
 
